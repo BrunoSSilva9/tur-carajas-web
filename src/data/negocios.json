@@ -1,0 +1,20 @@
+[
+  {
+    "id": "neg-001",
+    "nome": "Mercado Municipal de Canaã dos Carajás",
+    "categoria": "comercio",
+    "descricaoCurta": "Mercado municipal reformado, reunindo comerciantes locais em espaço central de compras e convivência.",
+    "localizacao": { "bairro": "Centro" },
+    "contatoWhatsapp": "",
+    "imagem": "/images/negocios/mercado-municipal.jpg"
+  },
+  {
+    "id": "neg-002",
+    "nome": "Feira do Produtor Clarindo Moraes da Silva",
+    "categoria": "agricultura",
+    "descricaoCurta": "Feira com 161 boxes e cerca de 170 permissionários, ponto de referência para produtos agrícolas e artesanais da região.",
+    "localizacao": { "bairro": "Centro" },
+    "contatoWhatsapp": "",
+    "imagem": "/images/negocios/feira-do-produtor.jpg"
+  }
+]

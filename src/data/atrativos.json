@@ -1,0 +1,38 @@
+[
+  {
+    "id": "atr-001",
+    "nome": "Lago dos Buritis",
+    "categoria": "natureza",
+    "descricaoCurta": "Lago urbano cercado de buritis, ponto tradicional de lazer e contemplação em Canaã dos Carajás.",
+    "localizacao": { "bairro": "Centro" },
+    "contatoWhatsapp": "",
+    "imagem": "/images/atrativos/lago-dos-buritis.jpg"
+  },
+  {
+    "id": "atr-002",
+    "nome": "Morro das Antenas",
+    "categoria": "natureza",
+    "descricaoCurta": "Mirante natural com vista panorâmica da cidade, ideal para trilhas leves e fotos do pôr do sol.",
+    "localizacao": { "bairro": "Zona Rural" },
+    "contatoWhatsapp": "",
+    "imagem": "/images/atrativos/morro-das-antenas.jpg"
+  },
+  {
+    "id": "atr-003",
+    "nome": "Cachoeira do Goiano",
+    "categoria": "natureza",
+    "descricaoCurta": "Cachoeira de acesso rural, procurada para banho e passeios de um dia em contato com a natureza.",
+    "localizacao": { "bairro": "Zona Rural" },
+    "contatoWhatsapp": "",
+    "imagem": "/images/atrativos/cachoeira-do-goiano.jpg"
+  },
+  {
+    "id": "atr-004",
+    "nome": "Parque Nacional dos Campos Ferruginosos",
+    "categoria": "natureza",
+    "descricaoCurta": "Unidade de conservação federal com formações de canga ferruginosa e biodiversidade única da região amazônica.",
+    "localizacao": { "bairro": "Zona Rural" },
+    "contatoWhatsapp": "",
+    "imagem": "/images/atrativos/campos-ferruginosos.jpg"
+  }
+]
