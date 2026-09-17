@@ -5,6 +5,8 @@ import { Questionario } from '../pages/Questionario/Questionario'
 import { Roteiro } from '../pages/Roteiro/Roteiro'
 import { Catalogo } from '../pages/Catalogo/Catalogo'
 import { PerfilNegocio } from '../pages/PerfilNegocio/PerfilNegocio'
+import { MeusRoteiros } from '../pages/MeusRoteiros/MeusRoteiros'
+import { Perfil } from '../pages/Perfil/Perfil'
 
 export const router = createBrowserRouter([
   {
@@ -16,6 +18,8 @@ export const router = createBrowserRouter([
       { path: 'roteiro', element: <Roteiro /> },
       { path: 'catalogo', element: <Catalogo /> },
       { path: 'negocio/:id', element: <PerfilNegocio /> },
+      { path: 'meus-roteiros', element: <MeusRoteiros /> },
+      { path: 'perfil', element: <Perfil /> },
     ],
   },
 ])

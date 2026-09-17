@@ -1,38 +1,182 @@
 [
   {
-    "id": "atr-001",
+    "id": "atr-lago-buritis",
     "nome": "Lago dos Buritis",
     "categoria": "natureza",
-    "descricaoCurta": "Lago urbano cercado de buritis, ponto tradicional de lazer e contemplação em Canaã dos Carajás.",
-    "localizacao": { "bairro": "Centro" },
-    "contatoWhatsapp": "",
-    "imagem": "/images/atrativos/lago-dos-buritis.jpg"
+    "descricaoCurta": "Atrativo natural urbano, aberto 24h.",
+    "localizacao": { "bairro": "Canaã dos Carajás, PA" },
+    "imagem": "",
+    "nota": 4.6,
+    "avaliacoes": 933
   },
   {
-    "id": "atr-002",
+    "id": "atr-lago-prefeitura",
+    "nome": "Lago da Prefeitura",
+    "categoria": "natureza",
+    "descricaoCurta": "Ponto turístico urbano mais avaliado da cidade.",
+    "localizacao": { "bairro": "Canaã dos Carajás, PA" },
+    "imagem": "",
+    "nota": 4.7,
+    "avaliacoes": 1021
+  },
+  {
+    "id": "atr-morro-antenas",
     "nome": "Morro das Antenas",
     "categoria": "natureza",
-    "descricaoCurta": "Mirante natural com vista panorâmica da cidade, ideal para trilhas leves e fotos do pôr do sol.",
-    "localizacao": { "bairro": "Zona Rural" },
-    "contatoWhatsapp": "",
-    "imagem": "/images/atrativos/morro-das-antenas.jpg"
+    "descricaoCurta": "Mirante da cidade; avaliações pedem mais infraestrutura.",
+    "localizacao": { "bairro": "Canaã dos Carajás, PA" },
+    "imagem": "",
+    "nota": 4.7,
+    "avaliacoes": 132
   },
   {
-    "id": "atr-003",
+    "id": "atr-veredas-carajas",
+    "nome": "Parque Municipal Veredas dos Carajás",
+    "categoria": "natureza",
+    "descricaoCurta": "Trilhas e rapel; abre só aos fins de semana.",
+    "localizacao": { "bairro": "Canaã dos Carajás, PA" },
+    "imagem": "",
+    "nota": 4.5,
+    "avaliacoes": 99
+  },
+  {
+    "id": "atr-bosque-gonzaguinha",
+    "nome": "Bosque Gonzaguinha",
+    "categoria": "natureza",
+    "descricaoCurta": "Bosque com animais silvestres.",
+    "localizacao": { "bairro": "Canaã dos Carajás, PA" },
+    "imagem": "",
+    "nota": 4.7,
+    "avaliacoes": 190
+  },
+  {
+    "id": "atr-arvore-samauma",
+    "nome": "Árvore Samaúma",
+    "categoria": "natureza",
+    "descricaoCurta": "Ponto pontual, pouco divulgado.",
+    "localizacao": { "bairro": "Canaã dos Carajás, PA" },
+    "imagem": "",
+    "nota": 5.0,
+    "avaliacoes": 7
+  },
+  {
+    "id": "atr-cachoeira-goiano",
     "nome": "Cachoeira do Goiano",
     "categoria": "natureza",
-    "descricaoCurta": "Cachoeira de acesso rural, procurada para banho e passeios de um dia em contato com a natureza.",
-    "localizacao": { "bairro": "Zona Rural" },
-    "contatoWhatsapp": "",
-    "imagem": "/images/atrativos/cachoeira-do-goiano.jpg"
+    "descricaoCurta": "Acesso difícil; avaliações citam lixo no local.",
+    "localizacao": { "bairro": "Canaã dos Carajás, PA" },
+    "imagem": "",
+    "nota": 4.5,
+    "avaliacoes": 166
   },
   {
-    "id": "atr-004",
+    "id": "atr-cachoeira-cristalino",
+    "nome": "Cachoeira do Cristalino",
+    "categoria": "natureza",
+    "descricaoCurta": "Pouco avaliada, indício de acesso restrito.",
+    "localizacao": { "bairro": "Canaã dos Carajás, PA" },
+    "imagem": "",
+    "nota": 5.0,
+    "avaliacoes": 3
+  },
+  {
+    "id": "atr-cachoeira-camarao",
+    "nome": "Cachoeira do Camarão",
+    "categoria": "natureza",
+    "descricaoCurta": "Baixa divulgação.",
+    "localizacao": { "bairro": "Canaã dos Carajás, PA" },
+    "imagem": "",
+    "nota": 4.8,
+    "avaliacoes": 10
+  },
+  {
+    "id": "atr-campos-ferruginosos",
     "nome": "Parque Nacional dos Campos Ferruginosos",
     "categoria": "natureza",
-    "descricaoCurta": "Unidade de conservação federal com formações de canga ferruginosa e biodiversidade única da região amazônica.",
-    "localizacao": { "bairro": "Zona Rural" },
-    "contatoWhatsapp": "",
-    "imagem": "/images/atrativos/campos-ferruginosos.jpg"
+    "descricaoCurta": "Principal atrativo natural da região; avaliações pedem mais cuidado da comunidade.",
+    "localizacao": { "bairro": "Canaã dos Carajás, PA" },
+    "imagem": "",
+    "nota": 4.8,
+    "avaliacoes": 20
+  },
+  {
+    "id": "atr-praca-biblia",
+    "nome": "Praça da Bíblia",
+    "categoria": "praca-parque",
+    "descricaoCurta": "Alta frequência de avaliações.",
+    "localizacao": { "bairro": "Canaã dos Carajás, PA" },
+    "imagem": "",
+    "nota": 4.6,
+    "avaliacoes": 751
+  },
+  {
+    "id": "atr-praca-guadalupe",
+    "nome": "Praça Virgem de Guadalupe",
+    "categoria": "praca-parque",
+    "descricaoCurta": "Boa para prática esportiva.",
+    "localizacao": { "bairro": "Canaã dos Carajás, PA" },
+    "imagem": "",
+    "nota": 4.6,
+    "avaliacoes": 100
+  },
+  {
+    "id": "atr-praca-luiz-gonzaga",
+    "nome": "Praça Luiz Gonzaga",
+    "categoria": "praca-parque",
+    "descricaoCurta": "Avaliação cita \"pouca estrutura para turismo\".",
+    "localizacao": { "bairro": "Canaã dos Carajás, PA" },
+    "imagem": "",
+    "nota": 4.3,
+    "avaliacoes": 70
+  },
+  {
+    "id": "atr-parque-linear-zulmira",
+    "nome": "Parque Linear Zulmira Arrais da Silva",
+    "categoria": "praca-parque",
+    "descricaoCurta": "Espaço para caminhada e piquenique.",
+    "localizacao": { "bairro": "Canaã dos Carajás, PA" },
+    "imagem": "",
+    "nota": 4.7,
+    "avaliacoes": 23
+  },
+  {
+    "id": "atr-praca-jeremias-santana",
+    "nome": "Praça Jeremias Ribeiro de Santana",
+    "categoria": "praca-parque",
+    "descricaoCurta": "Poucas avaliações.",
+    "localizacao": { "bairro": "Canaã dos Carajás, PA" },
+    "imagem": "",
+    "nota": 4.8,
+    "avaliacoes": 4
+  },
+  {
+    "id": "atr-pracinha-alexa-martins",
+    "nome": "Pracinha Alexa Martins",
+    "categoria": "praca-parque",
+    "descricaoCurta": "Playground, uso familiar.",
+    "localizacao": { "bairro": "Canaã dos Carajás, PA" },
+    "imagem": "",
+    "nota": 5.0,
+    "avaliacoes": 1
+  },
+  {
+    "id": "atr-youth-square",
+    "nome": "Youth Square",
+    "categoria": "praca-parque",
+    "descricaoCurta": "Espaço esportivo.",
+    "localizacao": { "bairro": "Canaã dos Carajás, PA" },
+    "imagem": "",
+    "nota": 4.5,
+    "avaliacoes": 379
+  },
+  {
+    "id": "atr-square-new-brazil",
+    "nome": "Square New Brazil",
+    "categoria": "praca-parque",
+    "descricaoCurta": "Reformado pela prefeitura.",
+    "localizacao": { "bairro": "Canaã dos Carajás, PA" },
+    "imagem": "",
+    "nota": 3.7,
+    "avaliacoes": 155
   }
 ]

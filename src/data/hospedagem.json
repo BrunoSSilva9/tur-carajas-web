@@ -1,0 +1,52 @@
+[
+  {
+    "id": "hosp-marrithe-golden",
+    "nome": "Marrithe Golden Hotel",
+    "categoria": "hospedagem",
+    "descricaoCurta": "Alto padrão, instalações novas.",
+    "localizacao": { "bairro": "Canaã dos Carajás, PA" },
+    "imagem": "",
+    "nota": 4.5,
+    "avaliacoes": 42
+  },
+  {
+    "id": "hosp-domus-palmeiras",
+    "nome": "Domus Hotel Palmeiras",
+    "categoria": "hospedagem",
+    "descricaoCurta": "Rede Domus.",
+    "localizacao": { "bairro": "Canaã dos Carajás, PA" },
+    "imagem": "",
+    "nota": 4.5,
+    "avaliacoes": 39
+  },
+  {
+    "id": "hosp-araguaia",
+    "nome": "Hotel Araguaia",
+    "categoria": "hospedagem",
+    "descricaoCurta": "Bom café da manhã.",
+    "localizacao": { "bairro": "Canaã dos Carajás, PA" },
+    "imagem": "",
+    "nota": 4.5,
+    "avaliacoes": 49
+  },
+  {
+    "id": "hosp-mirante",
+    "nome": "Mirante Hotel",
+    "categoria": "hospedagem",
+    "descricaoCurta": "Melhor custo-benefício citado.",
+    "localizacao": { "bairro": "Canaã dos Carajás, PA" },
+    "imagem": "",
+    "nota": 4.4,
+    "avaliacoes": 191
+  },
+  {
+    "id": "hosp-vila-da-mata",
+    "nome": "Pousada Vila da Mata",
+    "categoria": "hospedagem",
+    "descricaoCurta": "Única pousada com perfil claramente voltado a lazer/turismo.",
+    "localizacao": { "bairro": "Canaã dos Carajás, PA" },
+    "imagem": "",
+    "nota": 4.3,
+    "avaliacoes": 225
+  }
+]

@@ -1,1 +1,102 @@
-[]
+[
+  {
+    "id": "rest-conexao-espetaria",
+    "nome": "Conexão Espetaria",
+    "categoria": "gastronomia",
+    "descricaoCurta": "Melhor nota geral da cidade.",
+    "localizacao": { "bairro": "Canaã dos Carajás, PA" },
+    "imagem": "",
+    "nota": 4.9,
+    "avaliacoes": 1785
+  },
+  {
+    "id": "rest-valentins-buffet",
+    "nome": "valentins buffet",
+    "categoria": "gastronomia",
+    "descricaoCurta": "Buffet elogiado.",
+    "localizacao": { "bairro": "Canaã dos Carajás, PA" },
+    "imagem": "",
+    "nota": 5.0,
+    "avaliacoes": 30
+  },
+  {
+    "id": "rest-sr-espetto",
+    "nome": "Sr. Espetto",
+    "categoria": "gastronomia",
+    "descricaoCurta": "Ambiente com música ao vivo.",
+    "localizacao": { "bairro": "Canaã dos Carajás, PA" },
+    "imagem": "",
+    "nota": 4.8,
+    "avaliacoes": 11
+  },
+  {
+    "id": "rest-fogao-caipira",
+    "nome": "Fogão Caipira",
+    "categoria": "gastronomia",
+    "descricaoCurta": "Comida caseira, fogão a lenha.",
+    "localizacao": { "bairro": "Canaã dos Carajás, PA" },
+    "imagem": "",
+    "nota": 4.7,
+    "avaliacoes": 50
+  },
+  {
+    "id": "rest-malbec",
+    "nome": "Malbec",
+    "categoria": "gastronomia",
+    "descricaoCurta": "Cardápio impresso, boa avaliação.",
+    "localizacao": { "bairro": "Canaã dos Carajás, PA" },
+    "imagem": "",
+    "nota": 4.6,
+    "avaliacoes": 136
+  },
+  {
+    "id": "rest-parrilla",
+    "nome": "Parrilla Restaurante & Lounge",
+    "categoria": "gastronomia",
+    "descricaoCurta": "Buffet por quilo, só almoço, sem estacionamento.",
+    "localizacao": { "bairro": "Canaã dos Carajás, PA" },
+    "imagem": "",
+    "nota": 4.6,
+    "avaliacoes": 548
+  },
+  {
+    "id": "rest-baluart",
+    "nome": "Restaurante Baluart",
+    "categoria": "gastronomia",
+    "descricaoCurta": "Ambiente familiar.",
+    "localizacao": { "bairro": "Canaã dos Carajás, PA" },
+    "imagem": "",
+    "nota": 4.4,
+    "avaliacoes": 244
+  },
+  {
+    "id": "rest-tocantins",
+    "nome": "Restaurante Tocantins",
+    "categoria": "gastronomia",
+    "descricaoCurta": "Maior volume de avaliações da cidade.",
+    "localizacao": { "bairro": "Canaã dos Carajás, PA" },
+    "imagem": "",
+    "nota": 4.3,
+    "avaliacoes": 1704
+  },
+  {
+    "id": "rest-vale-dos-carajas",
+    "nome": "Vale dos Carajás Restaurante",
+    "categoria": "gastronomia",
+    "descricaoCurta": "Ambiente climatizado.",
+    "localizacao": { "bairro": "Canaã dos Carajás, PA" },
+    "imagem": "",
+    "nota": 4.3,
+    "avaliacoes": 28
+  },
+  {
+    "id": "rest-picanha-mania",
+    "nome": "Picanha Mania",
+    "categoria": "gastronomia",
+    "descricaoCurta": "Steakhouse/bar.",
+    "localizacao": { "bairro": "Canaã dos Carajás, PA" },
+    "imagem": "",
+    "nota": 4.0,
+    "avaliacoes": 1065
+  }
+]
