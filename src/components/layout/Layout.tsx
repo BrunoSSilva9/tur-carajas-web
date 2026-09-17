@@ -1,15 +1,15 @@
 import { Outlet } from 'react-router-dom'
 import { Header } from './Header'
-import { Footer } from './Footer'
+import { BottomNav } from './BottomNav'
 
 export function Layout() {
   return (
-    <div className="flex min-h-screen flex-col">
+    <div className="flex flex-col min-h-screen bg-surface">
       <Header />
-      <main className="mx-auto w-full max-w-5xl flex-1 px-4 py-6">
+      <main className="flex flex-col w-full pt-16 pb-24 min-h-screen">
         <Outlet />
       </main>
-      <Footer />
+      <BottomNav />
     </div>
   )
 }

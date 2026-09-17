@@ -1,64 +1,36 @@
-import { useState } from 'react'
-import { Link, NavLink } from 'react-router-dom'
-
-const links = [
-  { to: '/', label: 'Início' },
-  { to: '/questionario', label: 'Meu Roteiro' },
-  { to: '/catalogo', label: 'Catálogo' },
-]
+import { Link } from 'react-router-dom'
+import logo from '../../assets/caraj_s_photoroom.png'
 
 export function Header() {
-  const [menuAberto, setMenuAberto] = useState(false)
-
   return (
-    <header className="border-b border-gray-200 bg-white">
-      <div className="mx-auto flex max-w-5xl items-center justify-between px-4 py-3">
-        <Link to="/" className="text-lg font-semibold text-emerald-700">
-          Tur Carajás
+    <header className="fixed top-0 w-full z-50 pt-safe bg-surface/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]">
+      <div className="h-16 px-margin flex items-center justify-between gap-space-sm">
+        <Link to="/" className="flex items-center gap-space-sm">
+          <img src={logo} alt="Tur Carajás" className="h-10 w-auto object-contain" />
+
+          <div className="flex items-center gap-space-xs text-on-surface-variant">
+            <span className="material-symbols-outlined text-[14px] text-secondary">
+              location_on
+            </span>
+            <span className="font-body-sm text-body-sm">Canaã dos Carajás, PA</span>
+          </div>
         </Link>
 
-        <button
-          type="button"
-          className="p-2 text-gray-700 md:hidden"
-          aria-label="Abrir menu"
-          onClick={() => setMenuAberto((aberto) => !aberto)}
-        >
-          <span className="block h-0.5 w-6 bg-current" />
-          <span className="mt-1 block h-0.5 w-6 bg-current" />
-          <span className="mt-1 block h-0.5 w-6 bg-current" />
-        </button>
-
-        <nav className="hidden gap-6 md:flex">
-          {links.map((link) => (
-            <NavLink
-              key={link.to}
-              to={link.to}
-              className={({ isActive }) =>
-                isActive ? 'font-medium text-emerald-700' : 'text-gray-600'
-              }
-            >
-              {link.label}
-            </NavLink>
-          ))}
-        </nav>
+        <div className="flex items-center gap-space-xs">
+          <button
+            aria-label="Notificações"
+            type="button"
+            className="w-11 h-11 flex items-center justify-center rounded-full text-on-surface-variant hover:text-primary transition-colors"
+          >
+            <span className="material-symbols-outlined text-[24px]">notifications</span>
+          </button>
+          <button aria-label="Perfil" type="button" className="w-11 h-11 flex items-center justify-center">
+            <div className="w-8 h-8 rounded-full bg-primary-container flex items-center justify-center text-on-primary-container font-label-md text-label-md">
+              TC
+            </div>
+          </button>
+        </div>
       </div>
-
-      {menuAberto && (
-        <nav className="flex flex-col gap-3 border-t border-gray-200 px-4 py-3 md:hidden">
-          {links.map((link) => (
-            <NavLink
-              key={link.to}
-              to={link.to}
-              onClick={() => setMenuAberto(false)}
-              className={({ isActive }) =>
-                isActive ? 'font-medium text-emerald-700' : 'text-gray-600'
-              }
-            >
-              {link.label}
-            </NavLink>
-          ))}
-        </nav>
-      )}
     </header>
   )
 }
