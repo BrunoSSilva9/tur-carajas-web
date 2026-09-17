@@ -24,11 +24,11 @@ export function Header() {
           >
             <span className="material-symbols-outlined text-[24px]">notifications</span>
           </button>
-          <button aria-label="Perfil" type="button" className="w-11 h-11 flex items-center justify-center">
+          <Link to="/perfil" aria-label="Perfil" className="w-11 h-11 flex items-center justify-center">
             <div className="w-8 h-8 rounded-full bg-primary-container flex items-center justify-center text-on-primary-container font-label-md text-label-md">
               TC
             </div>
-          </button>
+          </Link>
         </div>
       </div>
     </header>

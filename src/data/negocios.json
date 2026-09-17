@@ -1,20 +1,10 @@
 [
   {
-    "id": "neg-001",
-    "nome": "Mercado Municipal de Canaã dos Carajás",
+    "id": "neg-mercado-municipal-feira",
+    "nome": "Mercado Municipal e Feira do Produtor Clarindo Moraes da Silva",
     "categoria": "comercio",
-    "descricaoCurta": "Mercado municipal reformado, reunindo comerciantes locais em espaço central de compras e convivência.",
-    "localizacao": { "bairro": "Centro" },
-    "contatoWhatsapp": "",
-    "imagem": "/images/negocios/mercado-municipal.jpg"
-  },
-  {
-    "id": "neg-002",
-    "nome": "Feira do Produtor Clarindo Moraes da Silva",
-    "categoria": "agricultura",
-    "descricaoCurta": "Feira com 161 boxes e cerca de 170 permissionários, ponto de referência para produtos agrícolas e artesanais da região.",
-    "localizacao": { "bairro": "Centro" },
-    "contatoWhatsapp": "",
-    "imagem": "/images/negocios/feira-do-produtor.jpg"
+    "descricaoCurta": "161 boxes (86 Feira do Produtor + 75 Mercado), reinaugurado em jun/2026 após reforma de R$ 6,1 milhões, ~170 permissionários, ~320 empregos diretos, ambiente climatizado.",
+    "localizacao": { "bairro": "Canaã dos Carajás, PA" },
+    "imagem": ""
   }
 ]

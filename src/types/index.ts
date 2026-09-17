@@ -23,6 +23,8 @@ export interface Atrativo {
   localizacao: Localizacao
   contatoWhatsapp?: string
   imagem: string
+  nota?: number
+  avaliacoes?: number
 }
 
 export interface Negocio {
@@ -33,6 +35,8 @@ export interface Negocio {
   localizacao: Localizacao
   contatoWhatsapp?: string
   imagem: string
+  nota?: number
+  avaliacoes?: number
 }
 
 export interface Restaurante {
@@ -43,13 +47,45 @@ export interface Restaurante {
   localizacao: Localizacao
   contatoWhatsapp?: string
   imagem: string
+  nota?: number
+  avaliacoes?: number
+}
+
+export interface Hospedagem {
+  id: string
+  nome: string
+  categoria: Categoria
+  descricaoCurta: string
+  localizacao: Localizacao
+  contatoWhatsapp?: string
+  imagem: string
+  nota?: number
+  avaliacoes?: number
 }
 
 export type Orcamento = 'baixo' | 'medio' | 'alto'
-export type Duracao = 'meio-dia' | 'dia-inteiro' | 'fim-de-semana'
+export type Duracao = '2-3h' | 'meio-dia' | 'dia-inteiro' | 'fim-de-semana'
+export type Companhia = 'sozinho' | 'casal' | 'familia' | 'amigos'
+
+export type InteresseViagem =
+  | 'cachoeiras-pocos'
+  | 'mirantes-por-do-sol'
+  | 'gastronomia-paraense'
+  | 'trilhas-ecologicas'
+  | 'banho-de-rio'
+  | 'cavernas-arqueologia'
+  | 'fotografia-natureza'
+  | 'observacao-aves'
+  | 'eventos-culturais'
+
+export type Transporte = 'carro-proprio' | 'transporte-local' | 'trilha-guiada'
+export type NivelCaminhada = 'leve' | 'moderado' | 'intenso'
 
 export interface RespostaQuestionario {
-  interesses: Categoria[]
-  orcamento: Orcamento
   duracao: Duracao
+  orcamento: Orcamento
+  companhia: Companhia
+  interesses: InteresseViagem[]
+  transporte: Transporte
+  nivelCaminhada: NivelCaminhada
 }

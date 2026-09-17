@@ -4,7 +4,7 @@ const items = [
   { to: '/', label: 'Início', icon: 'home', end: true },
   { to: '/catalogo', label: 'Explorar', icon: 'explore' },
   { to: '/roteiro', label: 'Roteiro', icon: 'map' },
-  { to: '/questionario', label: 'Meu Roteiro', icon: 'bookmark' },
+  { to: '/meus-roteiros', label: 'Salvos', icon: 'bookmark' },
 ]
 
 export function BottomNav() {
