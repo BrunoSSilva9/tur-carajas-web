@@ -25,9 +25,11 @@ export function Header() {
             <span className="material-symbols-outlined text-[24px]">notifications</span>
           </button>
           <Link to="/perfil" aria-label="Perfil" className="w-11 h-11 flex items-center justify-center">
-            <div className="w-8 h-8 rounded-full bg-primary-container flex items-center justify-center text-on-primary-container font-label-md text-label-md">
-              TC
-            </div>
+            <img
+              src="/images/users/user-gustavo-borges.png"
+              alt="Foto de perfil"
+              className="w-8 h-8 rounded-full object-cover"
+            />
           </Link>
         </div>
       </div>

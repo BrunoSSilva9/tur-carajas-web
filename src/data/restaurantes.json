@@ -5,9 +5,39 @@
     "categoria": "gastronomia",
     "descricaoCurta": "Melhor nota geral da cidade.",
     "localizacao": { "bairro": "Canaã dos Carajás, PA" },
-    "imagem": "",
+    "imagem": "/images/restaurantes/rest-conexao-espetaria.png",
     "nota": 4.9,
     "avaliacoes": 1785
+  },
+  {
+    "id": "rest-parrilla",
+    "nome": "Parrilla Restaurante & Lounge",
+    "categoria": "gastronomia",
+    "descricaoCurta": "Buffet por quilo, só almoço, sem estacionamento.",
+    "localizacao": { "bairro": "Canaã dos Carajás, PA" },
+    "imagem": "/images/restaurantes/rest-parrilla-lounge.jpg",
+    "nota": 4.6,
+    "avaliacoes": 548
+  },
+  {
+    "id": "rest-baluart",
+    "nome": "Restaurante Baluart",
+    "categoria": "gastronomia",
+    "descricaoCurta": "Ambiente familiar.",
+    "localizacao": { "bairro": "Canaã dos Carajás, PA" },
+    "imagem": "/images/restaurantes/rest-baluart.jpg",
+    "nota": 4.4,
+    "avaliacoes": 244
+  },
+  {
+    "id": "rest-tocantins",
+    "nome": "Restaurante Tocantins",
+    "categoria": "gastronomia",
+    "descricaoCurta": "Maior volume de avaliações da cidade.",
+    "localizacao": { "bairro": "Canaã dos Carajás, PA" },
+    "imagem": "/images/restaurantes/rest-tocantins.png",
+    "nota": 4.3,
+    "avaliacoes": 1704
   },
   {
     "id": "rest-valentins-buffet",
@@ -48,36 +78,6 @@
     "imagem": "",
     "nota": 4.6,
     "avaliacoes": 136
-  },
-  {
-    "id": "rest-parrilla",
-    "nome": "Parrilla Restaurante & Lounge",
-    "categoria": "gastronomia",
-    "descricaoCurta": "Buffet por quilo, só almoço, sem estacionamento.",
-    "localizacao": { "bairro": "Canaã dos Carajás, PA" },
-    "imagem": "",
-    "nota": 4.6,
-    "avaliacoes": 548
-  },
-  {
-    "id": "rest-baluart",
-    "nome": "Restaurante Baluart",
-    "categoria": "gastronomia",
-    "descricaoCurta": "Ambiente familiar.",
-    "localizacao": { "bairro": "Canaã dos Carajás, PA" },
-    "imagem": "",
-    "nota": 4.4,
-    "avaliacoes": 244
-  },
-  {
-    "id": "rest-tocantins",
-    "nome": "Restaurante Tocantins",
-    "categoria": "gastronomia",
-    "descricaoCurta": "Maior volume de avaliações da cidade.",
-    "localizacao": { "bairro": "Canaã dos Carajás, PA" },
-    "imagem": "",
-    "nota": 4.3,
-    "avaliacoes": 1704
   },
   {
     "id": "rest-vale-dos-carajas",
