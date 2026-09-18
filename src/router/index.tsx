@@ -9,6 +9,7 @@ import { MeusRoteiros } from '../pages/MeusRoteiros/MeusRoteiros'
 import { Perfil } from '../pages/Perfil/Perfil'
 import { Eventos } from '../pages/Eventos/Eventos'
 import { EventoDetalhe } from '../pages/Eventos/EventoDetalhe'
+import { HospedagemDetalhe } from '../pages/Hospedagem/HospedagemDetalhe'
 
 export const router = createBrowserRouter([
   {
@@ -24,6 +25,7 @@ export const router = createBrowserRouter([
       { path: 'perfil', element: <Perfil /> },
       { path: 'eventos', element: <Eventos /> },
       { path: 'eventos/:id', element: <EventoDetalhe /> },
+      { path: 'hospedagem/:id', element: <HospedagemDetalhe /> },
     ],
   },
 ])

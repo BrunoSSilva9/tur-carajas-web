@@ -5,7 +5,7 @@
     "categoria": "natureza",
     "descricaoCurta": "Atrativo natural urbano, aberto 24h.",
     "localizacao": { "bairro": "Canaã dos Carajás, PA" },
-    "imagem": "",
+    "imagem": "/images/atrativos/atr-lago-buritis.jpg",
     "nota": 4.6,
     "avaliacoes": 933
   },
@@ -15,7 +15,7 @@
     "categoria": "natureza",
     "descricaoCurta": "Ponto turístico urbano mais avaliado da cidade.",
     "localizacao": { "bairro": "Canaã dos Carajás, PA" },
-    "imagem": "",
+    "imagem": "/images/atrativos/atr-lago-prefeitura.jpg",
     "nota": 4.7,
     "avaliacoes": 1021
   },
@@ -25,7 +25,7 @@
     "categoria": "natureza",
     "descricaoCurta": "Mirante da cidade; avaliações pedem mais infraestrutura.",
     "localizacao": { "bairro": "Canaã dos Carajás, PA" },
-    "imagem": "",
+    "imagem": "/images/atrativos/atr-morro-antenas.jpg",
     "nota": 4.7,
     "avaliacoes": 132
   },
@@ -35,7 +35,7 @@
     "categoria": "natureza",
     "descricaoCurta": "Trilhas e rapel; abre só aos fins de semana.",
     "localizacao": { "bairro": "Canaã dos Carajás, PA" },
-    "imagem": "",
+    "imagem": "/images/atrativos/atr-parque-mun-veredas-carajas.jpg",
     "nota": 4.5,
     "avaliacoes": 99
   },
@@ -45,7 +45,7 @@
     "categoria": "natureza",
     "descricaoCurta": "Bosque com animais silvestres.",
     "localizacao": { "bairro": "Canaã dos Carajás, PA" },
-    "imagem": "",
+    "imagem": "/images/atrativos/atr-bosque-gonzaguinha.jpg",
     "nota": 4.7,
     "avaliacoes": 190
   },
@@ -55,7 +55,7 @@
     "categoria": "natureza",
     "descricaoCurta": "Ponto pontual, pouco divulgado.",
     "localizacao": { "bairro": "Canaã dos Carajás, PA" },
-    "imagem": "",
+    "imagem": "/images/atrativos/atr-arvore-samauma.jpg",
     "nota": 5.0,
     "avaliacoes": 7
   },
@@ -65,7 +65,7 @@
     "categoria": "natureza",
     "descricaoCurta": "Acesso difícil; avaliações citam lixo no local.",
     "localizacao": { "bairro": "Canaã dos Carajás, PA" },
-    "imagem": "",
+    "imagem": "/images/atrativos/atr-cachoeira-goiano.jpg",
     "nota": 4.5,
     "avaliacoes": 166
   },
@@ -75,7 +75,7 @@
     "categoria": "natureza",
     "descricaoCurta": "Pouco avaliada, indício de acesso restrito.",
     "localizacao": { "bairro": "Canaã dos Carajás, PA" },
-    "imagem": "",
+    "imagem": "/images/atrativos/atr-cachoeira-cristalino.jpg",
     "nota": 5.0,
     "avaliacoes": 3
   },
@@ -95,7 +95,7 @@
     "categoria": "natureza",
     "descricaoCurta": "Principal atrativo natural da região; avaliações pedem mais cuidado da comunidade.",
     "localizacao": { "bairro": "Canaã dos Carajás, PA" },
-    "imagem": "",
+    "imagem": "/images/atrativos/atr-parque-campos-refuginosos.jpg",
     "nota": 4.8,
     "avaliacoes": 20
   },
@@ -105,7 +105,7 @@
     "categoria": "praca-parque",
     "descricaoCurta": "Alta frequência de avaliações.",
     "localizacao": { "bairro": "Canaã dos Carajás, PA" },
-    "imagem": "",
+    "imagem": "/images/atrativos/atr-praca-biblia.jpg",
     "nota": 4.6,
     "avaliacoes": 751
   },
@@ -115,7 +115,7 @@
     "categoria": "praca-parque",
     "descricaoCurta": "Boa para prática esportiva.",
     "localizacao": { "bairro": "Canaã dos Carajás, PA" },
-    "imagem": "",
+    "imagem": "/images/atrativos/atr-praca-virgem-guadalupe.jpg",
     "nota": 4.6,
     "avaliacoes": 100
   },
@@ -135,7 +135,7 @@
     "categoria": "praca-parque",
     "descricaoCurta": "Espaço para caminhada e piquenique.",
     "localizacao": { "bairro": "Canaã dos Carajás, PA" },
-    "imagem": "",
+    "imagem": "/images/atrativos/atr-parque-zulmira-silva.jpg",
     "nota": 4.7,
     "avaliacoes": 23
   },
@@ -165,7 +165,7 @@
     "categoria": "praca-parque",
     "descricaoCurta": "Espaço esportivo.",
     "localizacao": { "bairro": "Canaã dos Carajás, PA" },
-    "imagem": "",
+    "imagem": "/images/atrativos/atr-youth-square.jpg",
     "nota": 4.5,
     "avaliacoes": 379
   },
@@ -175,7 +175,7 @@
     "categoria": "praca-parque",
     "descricaoCurta": "Reformado pela prefeitura.",
     "localizacao": { "bairro": "Canaã dos Carajás, PA" },
-    "imagem": "",
+    "imagem": "/images/atrativos/atr-square-new-brazil.jpg",
     "nota": 3.7,
     "avaliacoes": 155
   }

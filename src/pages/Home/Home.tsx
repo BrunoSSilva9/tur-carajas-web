@@ -10,6 +10,7 @@ const destaques = [
     nota: 4.7,
     avaliacoes: 1021,
     icone: 'water_drop',
+    imagem: '/images/atrativos/atr-lago-prefeitura.jpg',
   },
   {
     nome: 'Lago dos Buritis',
@@ -17,6 +18,7 @@ const destaques = [
     nota: 4.6,
     avaliacoes: 933,
     icone: 'forest',
+    imagem: '/images/atrativos/atr-lago-buritis.jpg',
   },
 ]
 
@@ -138,9 +140,16 @@ export function Home() {
               className="group rounded-xl overflow-hidden bg-surface-container-lowest shadow-sm flex flex-col"
             >
               <div className="relative w-full h-44 bg-gradient-to-br from-primary/70 to-primary-container/70 flex items-center justify-center">
-                <span className="material-symbols-outlined text-[40px] text-on-primary">
-                  {item.icone}
-                </span>
+                {item.imagem ? (
+                  <div
+                    className="absolute inset-0 bg-cover bg-center"
+                    style={{ backgroundImage: `url('${item.imagem}')` }}
+                  />
+                ) : (
+                  <span className="material-symbols-outlined text-[40px] text-on-primary">
+                    {item.icone}
+                  </span>
+                )}
                 <span className="absolute top-3 left-3 bg-surface-bright/90 backdrop-blur-md px-space-sm py-0.5 rounded-full font-label-sm text-label-sm text-on-surface flex items-center gap-1">
                   <span
                     className="material-symbols-outlined text-[14px] text-secondary-container"
