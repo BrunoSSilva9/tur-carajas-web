@@ -142,7 +142,13 @@ export function Catalogo() {
                 imagem={item.imagem}
                 nota={item.nota}
                 avaliacoes={item.avaliacoes}
-                linkPara={item.categoria === 'comercio' ? `/negocio/${item.id}` : undefined}
+                linkPara={
+                  item.categoria === 'comercio'
+                    ? `/negocio/${item.id}`
+                    : aba === 'hospedagem'
+                      ? `/hospedagem/${item.id}`
+                      : undefined
+                }
               />
             ))
           )}

@@ -51,16 +51,28 @@ export interface Restaurante {
   avaliacoes?: number
 }
 
+export interface QuartoHospedagem {
+  id: string
+  nome: string
+  capacidade: string
+  tamanhoM2?: number
+  precoNoite: number
+}
+
 export interface Hospedagem {
   id: string
   nome: string
   categoria: Categoria
   descricaoCurta: string
+  descricaoCompleta?: string
   localizacao: Localizacao
   contatoWhatsapp?: string
   imagem: string
   nota?: number
   avaliacoes?: number
+  // amenidades e quartos (com preços) são placeholder até confirmação real — ver aviso em src/data/hospedagem.json
+  amenidades?: string[]
+  quartos?: QuartoHospedagem[]
 }
 
 export type CategoriaEvento = 'cultura' | 'gastronomia' | 'natureza-aventura' | 'esporte'
