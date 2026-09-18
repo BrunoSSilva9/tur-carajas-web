@@ -63,6 +63,30 @@ export interface Hospedagem {
   avaliacoes?: number
 }
 
+export type CategoriaEvento = 'cultura' | 'gastronomia' | 'natureza-aventura' | 'esporte'
+
+export interface ProgramacaoItem {
+  horario: string
+  periodo: string
+  titulo: string
+  local: string
+  descricao: string
+  tag: string
+  gratuito: boolean
+}
+
+export interface Evento {
+  id: string
+  nome: string
+  categoria: CategoriaEvento
+  descricaoCurta: string
+  dataLabel: string
+  local: string
+  gratuito: boolean
+  icone: string
+  programacao: ProgramacaoItem[]
+}
+
 export type Orcamento = 'baixo' | 'medio' | 'alto'
 export type Duracao = '2-3h' | 'meio-dia' | 'dia-inteiro' | 'fim-de-semana'
 export type Companhia = 'sozinho' | 'casal' | 'familia' | 'amigos'
