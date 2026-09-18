@@ -37,7 +37,7 @@ export function FiltrosEventosModal({ filtros, onAplicar, onFechar }: FiltrosEve
   }
 
   return (
-    <div className="fixed inset-0 z-[60] flex items-end justify-center">
+    <div className="fixed inset-0 z-50 flex items-end justify-center">
       <div className="absolute inset-0 bg-on-surface/60 backdrop-blur-[2px]" onClick={onFechar} />
 
       <div className="relative w-full max-w-[480px] max-h-[85%] bg-surface rounded-t-[32px] shadow-2xl flex flex-col">
