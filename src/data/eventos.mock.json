@@ -1,0 +1,100 @@
+{
+  "_aviso": "DADOS FICTÍCIOS DE DEMONSTRAÇÃO — não representam eventos reais, datas confirmadas, organizadores ou parcerias institucionais. Substituir por fonte real (ex: calendário oficial da Secretaria de Cultura/Turismo) quando disponível.",
+  "eventos": [
+    {
+      "id": "evt-feira-artesanato",
+      "nome": "Feira de Artesanato Regional",
+      "categoria": "cultura",
+      "descricaoCurta": "Exposição e venda de artesanato típico da região, com peças de artesãos locais.",
+      "dataLabel": "Finais de semana (exemplo)",
+      "local": "Praça pública (local ilustrativo)",
+      "gratuito": true,
+      "icone": "festival",
+      "programacao": [
+        {
+          "horario": "09:00",
+          "periodo": "Manhã",
+          "titulo": "Abertura da feira e exposição dos artesãos",
+          "local": "Tendas da praça (ilustrativo)",
+          "descricao": "Montagem das barracas com peças de cerâmica, madeira e fibras naturais produzidas por artesãos da região.",
+          "tag": "Exposição",
+          "gratuito": true
+        },
+        {
+          "horario": "16:00",
+          "periodo": "Tarde",
+          "titulo": "Roda de conversa sobre técnicas artesanais",
+          "local": "Espaço central (ilustrativo)",
+          "descricao": "Artesãos compartilham técnicas e histórias por trás das peças expostas.",
+          "tag": "Atividade",
+          "gratuito": true
+        }
+      ]
+    },
+    {
+      "id": "evt-festival-musica-praca",
+      "nome": "Festival de Música na Praça",
+      "categoria": "cultura",
+      "descricaoCurta": "Apresentações musicais ao ar livre com artistas e grupos locais.",
+      "dataLabel": "Época festiva (exemplo)",
+      "local": "Praça pública (local ilustrativo)",
+      "gratuito": true,
+      "icone": "music_note",
+      "programacao": []
+    },
+    {
+      "id": "evt-roda-sabores-paraenses",
+      "nome": "Roda de Sabores Paraenses",
+      "categoria": "gastronomia",
+      "descricaoCurta": "Degustação de pratos típicos e produtos regionais em barracas comunitárias.",
+      "dataLabel": "Data a definir",
+      "local": "Área gastronômica (local ilustrativo)",
+      "gratuito": false,
+      "icone": "restaurant",
+      "programacao": [
+        {
+          "horario": "18:00",
+          "periodo": "Noite",
+          "titulo": "Abertura das barracas de comida típica",
+          "local": "Boulevard gastronômico (ilustrativo)",
+          "descricao": "Barracas com pratos regionais e produtos derivados de açaí e castanha.",
+          "tag": "Gastronomia",
+          "gratuito": false
+        }
+      ]
+    },
+    {
+      "id": "evt-circuito-trilhas-ecologicas",
+      "nome": "Circuito de Trilhas Ecológicas",
+      "categoria": "natureza-aventura",
+      "descricaoCurta": "Caminhadas guiadas por trilhas naturais com foco em educação ambiental.",
+      "dataLabel": "Temporada seca (exemplo)",
+      "local": "Trilhas da região (local ilustrativo)",
+      "gratuito": false,
+      "icone": "hiking",
+      "programacao": []
+    },
+    {
+      "id": "evt-torneio-esportivo-comunitario",
+      "nome": "Torneio Esportivo Comunitário",
+      "categoria": "esporte",
+      "descricaoCurta": "Competições esportivas amadoras reunindo equipes da comunidade local.",
+      "dataLabel": "Fim de semana (exemplo)",
+      "local": "Quadra poliesportiva (local ilustrativo)",
+      "gratuito": true,
+      "icone": "sports_soccer",
+      "programacao": []
+    },
+    {
+      "id": "evt-mostra-cultural-carimbo",
+      "nome": "Mostra Cultural de Carimbó",
+      "categoria": "cultura",
+      "descricaoCurta": "Apresentações de dança e música tradicional paraense.",
+      "dataLabel": "Data a definir",
+      "local": "Espaço cultural (local ilustrativo)",
+      "gratuito": true,
+      "icone": "theater_comedy",
+      "programacao": []
+    }
+  ]
+}

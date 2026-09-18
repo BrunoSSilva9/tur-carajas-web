@@ -7,6 +7,8 @@ import { Catalogo } from '../pages/Catalogo/Catalogo'
 import { PerfilNegocio } from '../pages/PerfilNegocio/PerfilNegocio'
 import { MeusRoteiros } from '../pages/MeusRoteiros/MeusRoteiros'
 import { Perfil } from '../pages/Perfil/Perfil'
+import { Eventos } from '../pages/Eventos/Eventos'
+import { EventoDetalhe } from '../pages/Eventos/EventoDetalhe'
 
 export const router = createBrowserRouter([
   {
@@ -20,6 +22,8 @@ export const router = createBrowserRouter([
       { path: 'negocio/:id', element: <PerfilNegocio /> },
       { path: 'meus-roteiros', element: <MeusRoteiros /> },
       { path: 'perfil', element: <Perfil /> },
+      { path: 'eventos', element: <Eventos /> },
+      { path: 'eventos/:id', element: <EventoDetalhe /> },
     ],
   },
 ])
