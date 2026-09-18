@@ -88,11 +88,11 @@ export function Perfil() {
         {/* Identificação */}
         <div className="flex flex-col items-center text-center pt-space-xs">
           <div className="relative mb-space-sm">
-            <img
-              src="/images/users/user-gustavo-borges.png"
-              alt="Foto de perfil"
-              className="w-[88px] h-[88px] rounded-full object-cover shadow-md"
-            />
+            <div className="w-[88px] h-[88px] rounded-full bg-primary-container flex items-center justify-center shadow-md">
+              <span className="font-headline-md text-headline-md text-on-primary-container">
+                TC
+              </span>
+            </div>
           </div>
           <h2 className="font-headline-sm text-headline-sm text-tertiary">Visitante Tur Carajás</h2>
           <div className="flex items-center justify-center gap-space-xs text-on-surface-variant mt-0.5 mb-space-sm">

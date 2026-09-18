@@ -2,39 +2,34 @@
   "_aviso": "Nome, nota e número de avaliações são reais (pesquisa Google Places). Os campos 'amenidades', 'quartos' e 'precoNoite' são PLACEHOLDER — comodidades genéricas plausíveis e preços de exemplo para uma cidade do interior do Pará, ainda sem confirmação real. Substituir quando houver dados confirmados diretamente com cada hospedagem.",
   "hospedagem": [
     {
-      "id": "hosp-vila-da-mata",
-      "nome": "Pousada Vila da Mata",
+      "id": "hosp-marrithe-golden",
+      "nome": "Marrithe Golden Hotel",
       "categoria": "hospedagem",
-      "descricaoCurta": "Única pousada com perfil claramente voltado a lazer/turismo na cidade.",
-      "descricaoCompleta": "Pousada em Canaã dos Carajás com perfil voltado a visitantes e turistas — diferencial em uma cidade onde a maioria dos hotéis atende principalmente hóspedes a trabalho ligados à mineração.",
+      "descricaoCurta": "Alto padrão, instalações novas.",
       "localizacao": { "bairro": "Canaã dos Carajás, PA" },
-      "imagem": "/images/hospedagem/hosp-vila-mata.jpg",
-      "nota": 4.3,
-      "avaliacoes": 225,
-      "amenidades": [
-        "Wi-Fi",
-        "Café da manhã incluso",
-        "Estacionamento",
-        "Ar-condicionado",
-        "Área de convivência",
-        "Aceita pets (sob consulta)"
-      ],
-      "quartos": [
-        {
-          "id": "quarto-simples",
-          "nome": "Quarto Simples",
-          "capacidade": "Até 2 pessoas",
-          "tamanhoM2": 16,
-          "precoNoite": 130
-        },
-        {
-          "id": "quarto-familia",
-          "nome": "Quarto Família",
-          "capacidade": "Até 4 pessoas",
-          "tamanhoM2": 26,
-          "precoNoite": 210
-        }
-      ]
+      "imagem": "",
+      "nota": 4.5,
+      "avaliacoes": 42
+    },
+    {
+      "id": "hosp-domus-palmeiras",
+      "nome": "Domus Hotel Palmeiras",
+      "categoria": "hospedagem",
+      "descricaoCurta": "Rede Domus.",
+      "localizacao": { "bairro": "Canaã dos Carajás, PA" },
+      "imagem": "",
+      "nota": 4.5,
+      "avaliacoes": 39
+    },
+    {
+      "id": "hosp-araguaia",
+      "nome": "Hotel Araguaia",
+      "categoria": "hospedagem",
+      "descricaoCurta": "Bom café da manhã.",
+      "localizacao": { "bairro": "Canaã dos Carajás, PA" },
+      "imagem": "",
+      "nota": 4.5,
+      "avaliacoes": 49
     },
     {
       "id": "hosp-mirante",
@@ -43,7 +38,7 @@
       "descricaoCurta": "Citado nas avaliações como o de melhor custo-benefício da cidade.",
       "descricaoCompleta": "Hospedagem no centro de Canaã dos Carajás, referência de custo-benefício segundo avaliações de hóspedes. Estrutura voltada tanto a quem viaja a trabalho quanto a visitantes.",
       "localizacao": { "bairro": "Canaã dos Carajás, PA" },
-      "imagem": "/images/hospedagem/hosp-mirante-hotel.jpg",
+      "imagem": "",
       "nota": 4.4,
       "avaliacoes": 191,
       "amenidades": [
@@ -72,34 +67,39 @@
       ]
     },
     {
-      "id": "hosp-marrithe-golden",
-      "nome": "Marrithe Golden Hotel",
+      "id": "hosp-vila-da-mata",
+      "nome": "Pousada Vila da Mata",
       "categoria": "hospedagem",
-      "descricaoCurta": "Alto padrão, instalações novas.",
+      "descricaoCurta": "Única pousada com perfil claramente voltado a lazer/turismo na cidade.",
+      "descricaoCompleta": "Pousada em Canaã dos Carajás com perfil voltado a visitantes e turistas — diferencial em uma cidade onde a maioria dos hotéis atende principalmente hóspedes a trabalho ligados à mineração.",
       "localizacao": { "bairro": "Canaã dos Carajás, PA" },
-      "imagem": "/images/hospedagem/hosp-marrithe-golden.jpg",
-      "nota": 4.5,
-      "avaliacoes": 42
-    },
-    {
-      "id": "hosp-domus-palmeiras",
-      "nome": "Domus Hotel Palmeiras",
-      "categoria": "hospedagem",
-      "descricaoCurta": "Rede Domus.",
-      "localizacao": { "bairro": "Canaã dos Carajás, PA" },
-      "imagem": "/images/hospedagem/hosp-domus-palmeiras.jpg",
-      "nota": 4.5,
-      "avaliacoes": 39
-    },
-    {
-      "id": "hosp-araguaia",
-      "nome": "Hotel Araguaia",
-      "categoria": "hospedagem",
-      "descricaoCurta": "Bom café da manhã.",
-      "localizacao": { "bairro": "Canaã dos Carajás, PA" },
-      "imagem": "/images/hospedagem/hosp-hotel-araguaia.jpg",
-      "nota": 4.5,
-      "avaliacoes": 49
+      "imagem": "",
+      "nota": 4.3,
+      "avaliacoes": 225,
+      "amenidades": [
+        "Wi-Fi",
+        "Café da manhã incluso",
+        "Estacionamento",
+        "Ar-condicionado",
+        "Área de convivência",
+        "Aceita pets (sob consulta)"
+      ],
+      "quartos": [
+        {
+          "id": "quarto-simples",
+          "nome": "Quarto Simples",
+          "capacidade": "Até 2 pessoas",
+          "tamanhoM2": 16,
+          "precoNoite": 130
+        },
+        {
+          "id": "quarto-familia",
+          "nome": "Quarto Família",
+          "capacidade": "Até 4 pessoas",
+          "tamanhoM2": 26,
+          "precoNoite": 210
+        }
+      ]
     }
   ]
 }
